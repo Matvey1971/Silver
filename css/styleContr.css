@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap');
+body {
+    font-family: 'Montserrat';
+}
+.section {
+    padding: 0;
+    margin: 0;
+    
+}
+.header {
+    background-image: url(../img/mountain.png);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+.h-menu {
+    justify-content: space-between;
+    padding: 0 10em;
+}
+.title {
+    font-size: 40px;
+    font-weight: 700;
+}
+.header-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+
+}
+.btn-header {
+    padding: 12px 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(153, 134, 117);
+    font-family: 'Raleway';
+    font-size: 12px;
+    border: 0;
+    margin: 25px 0;
+}
+.about {
+    text-align: center;
+    padding: 2em 1em;
+}
+.about-fon {
+    background-color: rgb(245, 245, 245);
+}
+.btn-port {
+    margin: 0 5px;
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+.pic-port {
+    margin: 5px 10px;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/fon-clav.png);
+    color: white;
+    height: 30em;
+
+}
+.mobile {
+    background-image: url(../img/phone-hand.png);
+    background-size: cover;
+    font-size: 13px;
+
+} 
+.mobile-result {
+    background-color: rgb(53, 38, 31);
+    height: 16em;
+    color: white;
+    font-size: 11px;
+}
+.recent {
+    text-align: center;
+
+}
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/mountains.png);
+    height: 25em;
+}
+.brand {
+    margin: 0 30px;
+}
+.laster {
+    color: white;
+    background-color: rgb(25, 25, 25);
+}
+.last {
+    text-align: left;
+}
+.last-first {
+    padding-left: 16px;
+    padding-bottom: 20px;
+}
+.last-title {
+    padding: 20px 0;
+}
+.footer {
+    background-color: rgb(17, 17, 17);
+    height: 5em;
+    color: rgb(153, 134, 117);
+    align-items: center;
+
+}
+.foot {
+    justify-content: space-between;
+    margin: 0 15em;
+    padding: 1.8em 1em;
+    font-size: 10px;
+}
+.about-fon-footer {
+    background-color: rgb(53, 38, 31);
+    color: white;
+    padding: 2em 1em;
+
+}
